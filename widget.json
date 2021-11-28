@@ -1,0 +1,26 @@
+{
+    "videoToPlay": {
+      "type": "video-input",
+      "label": "Video to Play"
+    },
+    "videoPlayTime": {
+      "type": "number",
+      "label": "Video Duration Override"
+    },
+    "timeInterval": {
+      "type": "number",
+      "label": "Time Interval (minutes)",
+         "value": 10,
+      "min": 0
+    },
+    "addFade": {
+      "type": "dropdown",
+      "label": "Fade in/out",
+      "value": "yes",
+      "options": {
+        "yes": "Yes",
+        "no": "No"
+      }
+    }
+    
+  }

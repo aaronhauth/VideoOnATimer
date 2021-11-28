@@ -1,0 +1,12 @@
+video {
+	width: 100%;
+  	height: auto;
+}
+
+video.fade {
+  transition: opacity 2s;
+}
+
+video.hide {
+  opacity: 0;
+}
